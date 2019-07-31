@@ -1,0 +1,77 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>LoginServlet</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>web.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>StudentList</display-name>
+    <servlet-name>StudentList</servlet-name>
+    <servlet-class>web.StudentList</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentList</servlet-name>
+    <url-pattern>/StudentList</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Add</display-name>
+    <servlet-name>Add</servlet-name>
+    <servlet-class>web.Add</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Add</servlet-name>
+    <url-pattern>/Add</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Update</display-name>
+    <servlet-name>Update</servlet-name>
+    <servlet-class>web.Update</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Update</servlet-name>
+    <url-pattern>/Update</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DelServlet</display-name>
+    <servlet-name>DelServlet</servlet-name>
+    <servlet-class>web.DelServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DelServlet</servlet-name>
+    <url-pattern>/DelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Query</display-name>
+    <servlet-name>Query</servlet-name>
+    <servlet-class>web.Query</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Query</servlet-name>
+    <url-pattern>/Query</url-pattern>
+  </servlet-mapping>
+
+</web-app>
